@@ -4,13 +4,13 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "CN1"
-		(at -5.6388 -13.97 0)
+		(at -24.5 0.5 0)
 		(layer "F.SilkS")
 		(uuid "72238539-c499-418f-ab73-1c6b4990239a")
 		(effects
 			(font
-				(size 1.2065 1.2065)
-				(thickness 0.1016)
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify right top)
 		)
@@ -72,7 +72,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "28e352f6-0112-46f7-924a-d37bd8aa36ff")
 	)
 	(fp_line
@@ -82,7 +82,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "0ba61533-e04e-4282-a5b3-9ddfce012dd2")
 	)
 	(fp_line
@@ -92,7 +92,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "63804346-938e-4ff1-96df-4806c535d2e7")
 	)
 	(fp_line
@@ -102,7 +102,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "4a454f9b-d6a7-4239-91b5-204ad69e467c")
 	)
 	(fp_line
@@ -112,7 +112,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "0b117963-70ed-4109-9dbe-b0cc58dc062b")
 	)
 	(fp_line
@@ -122,7 +122,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "ee7eaf22-e9f3-4c9c-be47-107a4f67914b")
 	)
 	(fp_line
@@ -132,7 +132,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "976fa6af-4715-46ff-b01b-28192d9ccbc0")
 	)
 	(fp_line
@@ -142,68 +142,8 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "e8a45620-c546-4d22-b986-58c53a320124")
-	)
-	(fp_line
-		(start 26.162 -2.54)
-		(end 26.162 -3.556)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d983bee5-e03a-4c2a-9c77-412c33ca9f05")
-	)
-	(fp_line
-		(start 27.94 -17.272)
-		(end 27.94 -9.144)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e526b818-67b9-40e7-8774-e02d79d6fc85")
-	)
-	(fp_line
-		(start 27.94 -9.144)
-		(end 34.798 -9.144)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e5945804-f0ba-4c9f-bd8c-d44603d3e3d0")
-	)
-	(fp_line
-		(start 30.988 -2.794)
-		(end 30.988 -8.89)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "930e3be6-6139-4ca9-9d75-c926a291e406")
-	)
-	(fp_line
-		(start 34.798 -2.54)
-		(end 26.162 -2.54)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cb2743a7-c01b-427e-8064-7c65daa743a3")
-	)
-	(fp_line
-		(start 34.798 -2.54)
-		(end 34.798 -9.144)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4c76b3a9-e008-4a86-870e-4e111c1cda46")
 	)
 	(fp_line
 		(start -19.8 -10.185)
@@ -212,7 +152,7 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(uuid "3fe53e17-98bf-4be8-9c80-a2117576de68")
 	)
 	(fp_line
@@ -222,8 +162,68 @@
 			(width 0.127)
 			(type solid)
 		)
-		(layer "F.Fab")
+		(layer "Dwgs.User")
 		(uuid "822586b7-d8ab-4cfd-8a3c-959c516f56dc")
+	)
+	(fp_line
+		(start 26.162 -2.54)
+		(end 26.162 -3.556)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d983bee5-e03a-4c2a-9c77-412c33ca9f05")
+	)
+	(fp_line
+		(start 27.94 -17.272)
+		(end 27.94 -9.144)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e526b818-67b9-40e7-8774-e02d79d6fc85")
+	)
+	(fp_line
+		(start 27.94 -9.144)
+		(end 34.798 -9.144)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5945804-f0ba-4c9f-bd8c-d44603d3e3d0")
+	)
+	(fp_line
+		(start 30.988 -2.794)
+		(end 30.988 -8.89)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "930e3be6-6139-4ca9-9d75-c926a291e406")
+	)
+	(fp_line
+		(start 34.798 -2.54)
+		(end 26.162 -2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cb2743a7-c01b-427e-8064-7c65daa743a3")
+	)
+	(fp_line
+		(start 34.798 -2.54)
+		(end 34.798 -9.144)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4c76b3a9-e008-4a86-870e-4e111c1cda46")
 	)
 	(fp_text user "1"
 		(at -22.025 -4.445 0)
@@ -441,7 +441,7 @@
 		(solder_mask_margin 0.1016)
 		(uuid "619da310-584b-49b6-8d89-fc1a2dbb65c0")
 	)
-	(model "/media/sf_SharedFolder/KiCad/Libs/Commodore/3d_cbm-connectors/UPS24CONN.STEP"
+	(model "${KIPRJMOD}/3dModels/C64 Userport Connector.step"
 		(offset
 			(xyz 0 8.5 -5.2)
 		)

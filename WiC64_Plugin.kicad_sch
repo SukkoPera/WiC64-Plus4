@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cbm-connectors:UPS24CONN"
+		(property "Footprint" "WiC64:UPS24CONN"
 			(at 128.27 109.22 0)
 			(effects
 				(font
@@ -13403,7 +13403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Logo:LazyJones2"
+		(property "Footprint" "WiC64:LazyJones2"
 			(at 149.86 187.96 0)
 			(effects
 				(font
@@ -13467,7 +13467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Logo:YPS2"
+		(property "Footprint" "WiC64:YPS2"
 			(at 165.1 181.61 0)
 			(effects
 				(font
@@ -13814,7 +13814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Logo:KiWi"
+		(property "Footprint" "WiC64:KiWi"
 			(at 165.1 187.96 0)
 			(effects
 				(font
@@ -14143,7 +14143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Logo:GMP"
+		(property "Footprint" "WiC64:GMP"
 			(at 149.86 181.61 0)
 			(effects
 				(font
