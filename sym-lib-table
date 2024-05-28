@@ -4,5 +4,5 @@
   (lib (name "void")(type "KiCad")(uri "${KIPRJMOD}/libs/void.kicad_sym")(options "")(descr ""))
   (lib (name "esp32_devkit_v1_doit")(type "KiCad")(uri "${KIPRJMOD}/libs/esp32_devkit_v1_doit.kicad_sym")(options "")(descr ""))
   (lib (name "ESP8266")(type "KiCad")(uri "${KIPRJMOD}/libs/ESP8266.kicad_sym")(options "")(descr ""))
-  (lib (name "cbm-connectors")(type "KiCad")(uri "${KIPRJMOD}/libs/cbm-connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "PLUS4_USERPORT")(type "KiCad")(uri "${KIPRJMOD}/libs/PLUS4_USERPORT.kicad_sym")(options "")(descr ""))
 )
