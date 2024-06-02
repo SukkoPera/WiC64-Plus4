@@ -1,0 +1,185 @@
+(footprint "Ferrite_D6.0mm_L10.00mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=4.00mm, , diameter=6.0mm, http://www.abracon.com/Magnetics/radial/AIUR-07.pdf")
+	(tags "Inductor Radial series Radial pin pitch 4.00mm  diameter 6.0mm")
+	(property "Reference" "REF**"
+		(at 2 -12.5 0)
+		(layer "F.SilkS")
+		(uuid "56de7719-3bcd-486c-94a0-7f10baa7729d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Ferrite_D6.0mm_L10.00mm_Horizontal"
+		(at 2 4.25 0)
+		(layer "F.Fab")
+		(uuid "b01c43d2-241d-4966-bd28-412b890ee7db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Ferrite_D6.0mm_L10.00mm_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9f3f204-d457-43df-99de-4c5de063d45a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c981c1c-e8c8-4ab7-86db-14040e6fc53d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b431be-7057-4023-a2af-b3dfbd388c0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1 -11.5)
+		(end -1 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e2355021-bb13-490c-83ed-4f320db420f1")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end 5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "746a1058-41af-4512-9446-99308632bf1d")
+	)
+	(fp_line
+		(start 5 -11.5)
+		(end -1 -11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89e4ff9f-c618-4d22-b5c1-9146c38e886d")
+	)
+	(fp_line
+		(start 5 -1.5)
+		(end 5 -11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "326c2e18-1909-4f85-9bd4-ccc84018c570")
+	)
+	(fp_line
+		(start -1.5 -14)
+		(end -1.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "72b0ab67-c190-4196-8ed8-c3b223e1678b")
+	)
+	(fp_line
+		(start -1.5 1)
+		(end 5.5 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa09e61e-7400-454f-9e84-1e2c136b7be3")
+	)
+	(fp_line
+		(start 5.5 -14)
+		(end -1.5 -14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "994bd235-8951-4506-a380-38959308445c")
+	)
+	(fp_line
+		(start 5.5 1)
+		(end 5.5 -14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7ab81c3-0854-4d08-8437-f206626d19b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2 0 0)
+		(layer "F.Fab")
+		(uuid "4360a2a3-8da0-4b68-8ac7-87e96c5ef7a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c18f30d2-59e1-42fc-9e02-85e263d2829a")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee6ed8bc-ac6f-429a-9773-91cb1b37f5c8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D6.0mm_P4.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

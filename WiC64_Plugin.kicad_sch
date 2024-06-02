@@ -5,12 +5,12 @@
 	(uuid "1ea654e4-7839-493d-a83b-1258d630b489")
 	(paper "A4")
 	(title_block
-		(title "WiC64 Plugin")
-		(date "2024-05-26")
-		(rev "0.6-Sukko")
-		(comment 1 "(C) 2021 by GMP")
-		(comment 2 "Modified by SukkoPera 2024")
-		(comment 3 "https://github.com/SukkoPera/WiC64-Plus4")
+		(title "WiC+4")
+		(date "2024-06-02")
+		(rev "1git")
+		(company "SukkoPera")
+		(comment 1 "Based on C64 version by GMP 2021")
+		(comment 2 "https://github.com/SukkoPera/WiC64-Plus4")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -745,6 +745,307 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:L_Ferrite"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L_Ferrite"
+				(at 2.794 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor with ferrite core"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Ferrite_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.794) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.762) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.254) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.524 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Ferrite_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3939,7 +4240,7 @@
 		(uuid "3589089c-8de4-45af-8763-3a2be62fd92c")
 	)
 	(junction
-		(at 107.95 93.98)
+		(at 101.6 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38bfc3bb-daf3-4b91-a3b6-926fff56ba27")
@@ -4680,7 +4981,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 96.52 90.17)
+			(xy 92.71 87.63) (xy 92.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4770,7 +5071,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 107.95 88.9)
+			(xy 101.6 93.98) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5110,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 128.27 93.98)
+			(xy 101.6 93.98) (xy 105.41 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5461,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 107.95 93.98)
+			(xy 99.06 93.98) (xy 101.6 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5460,7 +5761,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 90.17 93.98)
+			(xy 113.03 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a403f5be-0dba-4fc2-822c-93d2b9d517c8")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 86.36 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5931,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 77.47) (xy 96.52 80.01)
+			(xy 92.71 77.47) (xy 92.71 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6163,7 +6474,7 @@
 	)
 	(text "ESP32 DEVKIT\nPOWER"
 		(exclude_from_sim no)
-		(at 96.52 67.564 0)
+		(at 92.71 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6876,7 +7187,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 88.9 0)
+		(at 101.6 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6884,7 +7195,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ee683f6")
 		(property "Reference" "#PWR028"
-			(at 107.95 92.71 0)
+			(at 101.6 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +7204,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 108.331 84.5058 0)
+			(at 101.981 84.5058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6901,7 +7212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +7221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6919,7 +7230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 88.9 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,9 +7259,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00005ee6b616")
 		(property "Reference" "SW1"
-			(at 118.11 89.281 0)
+			(at 118.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +7270,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 118.11 91.5924 0)
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11326,7 +11638,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 96.52 83.82 270)
+		(at 92.71 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11334,7 +11646,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000600572bd")
 		(property "Reference" "D3"
-			(at 93.98 83.82 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11342,7 +11654,7 @@
 			)
 		)
 		(property "Value" "1N5819"
-			(at 99.695 83.82 0)
+			(at 95.885 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11662,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 96.52 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,7 +11689,7 @@
 			)
 		)
 		(property "LCSC" "C402219"
-			(at 96.52 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,7 +14091,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 96.52 77.47 0)
+		(at 92.71 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13788,7 +14100,7 @@
 		(fields_autoplaced yes)
 		(uuid "78d9ab3a-efa2-45ef-af23-9e613cad9281")
 		(property "Reference" "#PWR036"
-			(at 96.52 81.28 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13797,7 +14109,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 96.52 72.39 0)
+			(at 92.71 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13805,7 +14117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 77.47 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13814,7 +14126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 77.47 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13823,7 +14135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 96.52 77.47 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +14221,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
-		(at 96.52 93.98 180)
+		(at 92.71 93.98 180)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13918,7 +14230,7 @@
 		(fields_autoplaced yes)
 		(uuid "a625778a-c0ab-4a29-862d-76f755b39c10")
 		(property "Reference" "JP2"
-			(at 96.52 97.79 0)
+			(at 92.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13926,7 +14238,7 @@
 			)
 		)
 		(property "Value" "JMP_ESP_POWER"
-			(at 96.52 100.33 0)
+			(at 92.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13934,7 +14246,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 96.52 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13943,7 +14255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13952,7 +14264,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, both open"
-			(at 96.52 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,6 +14549,74 @@
 			(project "WiC64_Plugin"
 				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 109.22 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6237b99-e56b-402e-a6fb-a9c9b9e1992e")
+		(property "Reference" "L1"
+			(at 109.22 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FERRITE"
+			(at 109.22 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WiC64:Ferrite_D6.0mm_L10.00mm_Horizontal"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor with ferrite core"
+			(at 109.22 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cc5d8f4a-2886-49f7-b0bd-3d371921d810")
+		)
+		(pin "1"
+			(uuid "06a27cea-8789-4986-8267-0870e7b1b729")
+		)
+		(instances
+			(project "WiC64_Plugin"
+				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
+					(reference "L1")
 					(unit 1)
 				)
 			)
