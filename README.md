@@ -1,7 +1,7 @@
 # WiC+4
-WiC+4 is a device that allows connecting an SD card to the parallel port of an Amiga computer.
+WiC+4 is a wireless interface based on the ESP32 chip for the Commodore +4.
 
-![Board](https://raw.githubusercontent.com/SukkoPera/WiC+4/master/img/render-top.png)
+![Board](https://raw.githubusercontent.com/SukkoPera/WiC64-Plus4/main/img/render-top.png)
 
 ## Summary
 This is just a customization of [the original WiC64 project](https://github.com/WiC64-Team/wic64-hardware) in order to make it work on the Commodore +4. In fact, while this computer features a User Port that looks very similar to the one you can find on the C64, the electrical connections are different and thus some modifications are required.
@@ -45,7 +45,7 @@ If you decide to use power from the 5V rail, the diode bridge and 220uF cap can 
 The ESP-01 board in the top right corner is only required for debugging.
 
 ## Releases
-If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/WiC+4/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
+If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/WiC64-Plus4/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
 
 Every release is accompanied by its Bill Of Materials (BOM) file and any relevant notes about it, which you are recommended to read carefully.
 
