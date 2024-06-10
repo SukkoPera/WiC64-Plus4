@@ -23,7 +23,7 @@ Nevertheless, **this thing is completely unusable at the moment**, since no comp
 What needs to be done is to take [this library](https://github.com/WiC64-Team/wic64-library) and adapt it so that:
 
 * Data I/O takes place through the User Port
-* The PC" signal (ack/strobe: byte read from/written to port, rising edge) is controlled through /DTR
+* The PC2 signal (ack/strobe: byte read from/written to port, rising edge) is controlled through /DTR
 * The PA2 signal (Direction: HIGH = C64/+4 => ESP, LOW = ESP => C64/+4) is controlled through /RTS
 * The FLAG2 signal (ack/strobe: byte read from/written to port, falling edge) can be read through /DCD.
 
