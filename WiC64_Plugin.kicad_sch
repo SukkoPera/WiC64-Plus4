@@ -7,7 +7,7 @@
 	(title_block
 		(title "WiC+4")
 		(date "2024-06-23")
-		(rev "1git")
+		(rev "1FF")
 		(company "SukkoPera")
 		(comment 1 "Based on C64 version by GMP 2021")
 		(comment 2 "https://github.com/SukkoPera/WiC64-Plus4")
