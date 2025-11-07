@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "w_capacitors")(type "KiCad")(uri "${WALTER}/modules/w_capacitors.pretty")(options "")(descr ""))
+  (lib (name "w_capacitors")(type "KiCad")(uri "${WALTER}/modules/walter/w_capacitors.pretty")(options "")(descr ""))
   (lib (name "WiC64")(type "KiCad")(uri "${KIPRJMOD}/WiC64.pretty")(options "")(descr ""))
 )
