@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "WiC64 Plugin")
-		(date "2025-11-11")
+		(date "2025-11-24")
 		(rev "0.7-Sukko")
 		(comment 1 "(C) 2021 by GMP")
 		(comment 2 "Modified by SukkoPera 2024-2025")
@@ -3498,6 +3498,126 @@
 				)
 			)
 		)
+		(symbol "power:+9V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -3886,6 +4006,12 @@
 				)
 			)
 		)
+	)
+	(junction
+		(at 83.82 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00fbe505-0a07-44f8-8207-2c4e798ce9ff")
 	)
 	(junction
 		(at 76.2 26.67)
@@ -4884,6 +5010,16 @@
 			(type default)
 		)
 		(uuid "5bfa7834-d80a-42b0-9a4e-296473fb3256")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d937763-f2b7-4676-b509-d67accabf2c3")
 	)
 	(wire
 		(pts
@@ -5947,7 +6083,7 @@
 	)
 	(text "CREDITS"
 		(exclude_from_sim no)
-		(at 159.004 176.53 0)
+		(at 156.464 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6853,7 +6989,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 100.711 81.9658 0)
+			(at 100.33 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,7 +13065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "IO2"
+		(property "Value" "ACT"
 			(at 45.72 76.2 0)
 			(effects
 				(font
@@ -13200,6 +13336,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 83.82 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0217b012-c8fc-4f5e-aca3-aa33a735db21")
+		(property "Reference" "#PWR038"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 83.82 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "908f4821-6b8d-457a-bbf8-a1076d691b85")
+		)
+		(instances
+			(project ""
+				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 106.68 88.9 90)
 		(unit 1)
@@ -13268,16 +13469,16 @@
 	)
 	(symbol
 		(lib_id "void:Void")
-		(at 149.86 194.31 0)
+		(at 162.56 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0905664f-60c5-4ac9-a177-20ef61feb32a")
-		(property "Reference" "V5"
-			(at 152.4 193.0399 0)
+		(uuid "07909228-10f4-4c3e-bd70-4e5c660857eb")
+		(property "Reference" "V6"
+			(at 165.1 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13285,8 +13486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESD_WARN"
-			(at 152.4 195.5799 0)
+		(property "Value" "SukkoPera"
+			(at 165.1 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,8 +13495,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
-			(at 149.86 194.31 0)
+		(property "Footprint" "WiC64:PearLogo"
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13304,7 +13505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 194.31 0)
+			(at 162.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,7 +13514,71 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 194.31 0)
+			(at 162.56 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "WiC64_Plugin"
+				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
+					(reference "V6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "void:Void")
+		(at 147.32 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0905664f-60c5-4ac9-a177-20ef61feb32a")
+		(property "Reference" "V5"
+			(at 149.86 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD_WARN"
+			(at 149.86 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen"
+			(at 147.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13396,73 +13661,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 39.37 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f0d0137-a4fc-4e11-95d6-d0840fb645aa")
-		(property "Reference" "#PWR038"
-			(at 39.37 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.624 59.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 39.37 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "157af108-f44c-4720-8a1a-0fdcf7df50b7")
-		)
-		(instances
-			(project "WiC64_Plugin"
-				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "void:Void")
-		(at 149.86 187.96 0)
+		(at 147.32 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13471,7 +13671,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b34e53e-d423-496e-ac7f-94751d098cac")
 		(property "Reference" "V3"
-			(at 152.4 186.6899 0)
+			(at 149.86 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13480,7 +13680,7 @@
 			)
 		)
 		(property "Value" "LazyJones"
-			(at 152.4 189.2299 0)
+			(at 149.86 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13489,7 +13689,7 @@
 			)
 		)
 		(property "Footprint" "WiC64:LazyJones2"
-			(at 149.86 187.96 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13498,7 +13698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 187.96 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +13707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 187.96 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13526,7 +13726,7 @@
 	)
 	(symbol
 		(lib_id "void:Void")
-		(at 165.1 181.61 0)
+		(at 162.56 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13535,7 +13735,7 @@
 		(fields_autoplaced yes)
 		(uuid "39363c99-d061-4644-964e-57a00ab4393c")
 		(property "Reference" "V2"
-			(at 167.64 180.3399 0)
+			(at 165.1 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13544,7 +13744,7 @@
 			)
 		)
 		(property "Value" "YPS"
-			(at 167.64 182.8799 0)
+			(at 165.1 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,7 +13753,7 @@
 			)
 		)
 		(property "Footprint" "WiC64:YPS2"
-			(at 165.1 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13562,7 +13762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,7 +13771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 181.61 0)
+			(at 162.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +14073,7 @@
 	)
 	(symbol
 		(lib_id "void:Void")
-		(at 165.1 187.96 0)
+		(at 162.56 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13882,7 +14082,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e1c5454-a001-442b-a99c-a7338ccabbad")
 		(property "Reference" "V4"
-			(at 167.64 186.6899 0)
+			(at 165.1 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13891,7 +14091,7 @@
 			)
 		)
 		(property "Value" "KiWi"
-			(at 167.64 189.2299 0)
+			(at 165.1 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +14100,7 @@
 			)
 		)
 		(property "Footprint" "WiC64:KiWi"
-			(at 165.1 187.96 0)
+			(at 162.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13909,7 +14109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 187.96 0)
+			(at 162.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13918,7 +14118,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 187.96 0)
+			(at 162.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,8 +14215,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 39.37 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "986dc06e-451d-4b3c-a2ee-39ec2dfe3c30")
+		(property "Reference" "#PWR039"
+			(at 39.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 39.116 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 39.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7723f38b-faa0-49df-b576-a8c97c7b02f6")
+		)
+		(instances
+			(project "WiC64_Plugin"
+				(path "/1ea654e4-7839-493d-a83b-1258d630b489"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 125.73 187.96 0)
+		(at 123.19 187.96 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14025,7 +14290,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa6d3ea9-e62a-416e-8955-fca83dac2c40")
 		(property "Reference" "H1"
-			(at 128.27 186.6899 0)
+			(at 125.73 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14034,7 +14299,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 128.27 189.2299 0)
+			(at 125.73 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,7 +14308,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 125.73 187.96 0)
+			(at 123.19 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14052,7 +14317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 187.96 0)
+			(at 123.19 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14061,7 +14326,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 125.73 187.96 0)
+			(at 123.19 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14146,7 +14411,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 125.73 194.31 0)
+		(at 123.19 194.31 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14155,7 +14420,7 @@
 		(fields_autoplaced yes)
 		(uuid "d53c7525-9ec1-4937-ae9c-23c5aa154cf8")
 		(property "Reference" "H2"
-			(at 128.27 193.0399 0)
+			(at 125.73 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14429,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 128.27 195.5799 0)
+			(at 125.73 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +14438,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
-			(at 125.73 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14447,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +14456,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 125.73 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14475,7 @@
 	)
 	(symbol
 		(lib_id "void:Void")
-		(at 149.86 181.61 0)
+		(at 147.32 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14219,7 +14484,7 @@
 		(fields_autoplaced yes)
 		(uuid "df911824-84f1-40da-999a-fbed676c49ac")
 		(property "Reference" "V1"
-			(at 152.4 180.3399 0)
+			(at 149.86 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14228,7 +14493,7 @@
 			)
 		)
 		(property "Value" "GMP"
-			(at 152.4 182.8799 0)
+			(at 149.86 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +14502,7 @@
 			)
 		)
 		(property "Footprint" "WiC64:GMP"
-			(at 149.86 181.61 0)
+			(at 147.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 181.61 0)
+			(at 147.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,7 +14520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 181.61 0)
+			(at 147.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
