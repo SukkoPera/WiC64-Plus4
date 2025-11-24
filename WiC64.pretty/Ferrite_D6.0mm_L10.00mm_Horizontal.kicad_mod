@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -171,7 +174,7 @@
 		(remove_unused_layers no)
 		(uuid "ee6ed8bc-ac6f-429a-9773-91cb1b37f5c8")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D6.0mm_P4.00mm.wrl"
+	(model "x${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D6.0mm_P4.00mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -180,6 +183,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "Ferrite_THT.3dshapes/LairdTech_28C0236-0JW-10.step"
+		(offset
+			(xyz -0.5 1.5 2.5)
+		)
+		(scale
+			(xyz 1 1 0.7)
+		)
+		(rotate
+			(xyz 90 0 0)
 		)
 	)
 )

@@ -59,7 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "silk_edge_clearance|123627000|129539955|00000000-0000-0000-0000-0000601ad6f3|ee533e1d-a4fc-400c-9385-1939ba64ca5b"
+        "courtyards_overlap|168828801|120156601|d54b329e-e273-46bb-91e4-b5b45cb7bf56|00000000-0000-0000-0000-00006052bdf2"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -99,7 +99,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
