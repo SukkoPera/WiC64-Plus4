@@ -15,9 +15,16 @@ The only significant change is that the board can now be powered with either +5V
 
 This was done in order to make it easier to use the board on the Commodore 16 and Plus/4, where it must be connected through [an intermediate board](https://github.com/SukkoPera/PlusVIA) which only provides +5VDC.
 
-Selection of the power source is automatic. If both power sources are available the higher one will take precedence. This means that **the board maintains full compatibility with the C64**, and it will still use the 9VAC supply when connected to it.
+Selection of the power source is automatic. If both power sources are available the higher one will take precedence. This means that **the board retains full compatibility with the C64**, and it will still use the 9VAC supply when connected to it.
 
 Since the board might have a quite impulsive power draw, a ferrite bead was added on the +5VDC rail in order to reduce any interference.
+
+## Usage and Programming
+Please refer to [the original project](https://github.com/WiC64-Team/wic64-hardware) for assembly instructions, BOM (note you will need an extra 1n5819 diode) and 3D-printable enclosures.
+
+The board is supposed to be used with [the original firmware](https://github.com/WiC64-Team/wic64-firmware).
+
+For software support, I have made [a modified version of the interface library](https://github.com/SukkoPera/wic64-library) that allows writing software for either the C64 or C16/Plus4, but the board also works with the original library when used on the C64.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/WiC64-Plus4/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
@@ -41,3 +48,6 @@ Also, if you still have to register, [you can use this link](https://www.pcbway.
 You can also buy me a coffee if you want.
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Thanks
+* GMP and the WiC64 team for the original board, library and whole concept.
