@@ -20,6 +20,8 @@ Selection of the power source is automatic. If both power sources are available 
 Since the board might have a quite impulsive power draw, a ferrite bead was added on the +5VDC rail in order to reduce any interference.
 
 ## Usage and Programming
+This version of the board is **100% compatible with the original** one.
+
 Please refer to [the original project](https://github.com/WiC64-Team/wic64-hardware) for assembly instructions, BOM (note you will need an extra 1n5819 diode) and 3D-printable enclosures.
 
 The board is supposed to be used with [the original firmware](https://github.com/WiC64-Team/wic64-firmware).
