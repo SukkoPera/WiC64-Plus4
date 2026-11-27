@@ -11,13 +11,15 @@ WiC64-Plus4 is a WiFi network interface compatible with the Commodore 64, Commod
 ## Summary
 This is a slightly modified version of the [WiC64](https://github.com/WiC64-Team/wic64-hardware) board by GMP.
 
-The only significant change is that the board can now be powered with either +5VDC or 9VAC.
+The most significant change is that the board can now be powered with either +5VDC or 9VAC.
 
 This was done in order to make it easier to use the board on the Commodore 16 and Plus/4, where it must be connected through [an intermediate board](https://github.com/SukkoPera/PlusVIA) which only provides +5VDC.
 
 Selection of the power source is automatic. If both power sources are available the higher one will take precedence. This means that **the board retains full compatibility with the C64**, and it will still use the 9VAC supply when connected to it.
 
 Since the board might have a quite impulsive power draw, a ferrite bead was added on the +5VDC rail in order to reduce any interference.
+
+Finally, to make hand-assembly easier, the 0603 components were switch to 0805 and the pads for the SOT-23 MOSFETs where made longer.
 
 ## Usage and Programming
 This version of the board is **100% compatible with the original** one.
